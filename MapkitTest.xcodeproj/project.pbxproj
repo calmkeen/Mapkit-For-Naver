@@ -11,14 +11,25 @@
 		751ACFE727FDCE820015647E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751ACFE627FDCE820015647E /* ContentView.swift */; };
 		751ACFE927FDCE820015647E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 751ACFE827FDCE820015647E /* Assets.xcassets */; };
 		751ACFEC27FDCE820015647E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 751ACFEB27FDCE820015647E /* Preview Assets.xcassets */; };
+		751ACFF327FDD04E0015647E /* MapKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751ACFF227FDD04E0015647E /* MapKitView.swift */; };
+		751ACFF527FDD5010015647E /* MapkitTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751ACFF427FDD5010015647E /* MapkitTestView.swift */; };
+		751ACFF727FEADC30015647E /* naverMapKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751ACFF627FEADC30015647E /* naverMapKitView.swift */; };
+		D89D6FF848DFE92580F79783 /* Pods_MapkitTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BEBE2AB9EF850E00F2683CE /* Pods_MapkitTest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0AEB9BC100D4BAF3F8AB1FEF /* Pods-MapkitTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapkitTest.release.xcconfig"; path = "Target Support Files/Pods-MapkitTest/Pods-MapkitTest.release.xcconfig"; sourceTree = "<group>"; };
+		5BDA14075075ED03CE9AE409 /* Pods-MapkitTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapkitTest.debug.xcconfig"; path = "Target Support Files/Pods-MapkitTest/Pods-MapkitTest.debug.xcconfig"; sourceTree = "<group>"; };
 		751ACFE127FDCE820015647E /* MapkitTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapkitTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		751ACFE427FDCE820015647E /* MapkitTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapkitTestApp.swift; sourceTree = "<group>"; };
 		751ACFE627FDCE820015647E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		751ACFE827FDCE820015647E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		751ACFEB27FDCE820015647E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		751ACFF227FDD04E0015647E /* MapKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapKitView.swift; sourceTree = "<group>"; };
+		751ACFF427FDD5010015647E /* MapkitTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapkitTestView.swift; sourceTree = "<group>"; };
+		751ACFF627FEADC30015647E /* naverMapKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = naverMapKitView.swift; sourceTree = "<group>"; };
+		751ACFF827FEB4040015647E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		9BEBE2AB9EF850E00F2683CE /* Pods_MapkitTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MapkitTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +37,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D89D6FF848DFE92580F79783 /* Pods_MapkitTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		37E6025AA903BB900693A050 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5BDA14075075ED03CE9AE409 /* Pods-MapkitTest.debug.xcconfig */,
+				0AEB9BC100D4BAF3F8AB1FEF /* Pods-MapkitTest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		751ACFD827FDCE820015647E = {
 			isa = PBXGroup;
 			children = (
 				751ACFE327FDCE820015647E /* MapkitTest */,
 				751ACFE227FDCE820015647E /* Products */,
+				37E6025AA903BB900693A050 /* Pods */,
+				DA8374B39612D8411AFFD299 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,10 +74,14 @@
 		751ACFE327FDCE820015647E /* MapkitTest */ = {
 			isa = PBXGroup;
 			children = (
+				751ACFF827FEB4040015647E /* Info.plist */,
 				751ACFE427FDCE820015647E /* MapkitTestApp.swift */,
 				751ACFE627FDCE820015647E /* ContentView.swift */,
+				751ACFF227FDD04E0015647E /* MapKitView.swift */,
 				751ACFE827FDCE820015647E /* Assets.xcassets */,
 				751ACFEA27FDCE820015647E /* Preview Content */,
+				751ACFF427FDD5010015647E /* MapkitTestView.swift */,
+				751ACFF627FEADC30015647E /* naverMapKitView.swift */,
 			);
 			path = MapkitTest;
 			sourceTree = "<group>";
@@ -67,6 +94,14 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		DA8374B39612D8411AFFD299 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9BEBE2AB9EF850E00F2683CE /* Pods_MapkitTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +109,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 751ACFEF27FDCE820015647E /* Build configuration list for PBXNativeTarget "MapkitTest" */;
 			buildPhases = (
+				A87710633A3870A56CAE90E6 /* [CP] Check Pods Manifest.lock */,
 				751ACFDD27FDCE820015647E /* Sources */,
 				751ACFDE27FDCE820015647E /* Frameworks */,
 				751ACFDF27FDCE820015647E /* Resources */,
+				B721BC67E7F3756627375EF4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,11 +169,56 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A87710633A3870A56CAE90E6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MapkitTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B721BC67E7F3756627375EF4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MapkitTest/Pods-MapkitTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MapkitTest/Pods-MapkitTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MapkitTest/Pods-MapkitTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		751ACFDD27FDCE820015647E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				751ACFF527FDD5010015647E /* MapkitTestView.swift in Sources */,
+				751ACFF727FEADC30015647E /* naverMapKitView.swift in Sources */,
+				751ACFF327FDD04E0015647E /* MapKitView.swift in Sources */,
 				751ACFE727FDCE820015647E /* ContentView.swift in Sources */,
 				751ACFE527FDCE820015647E /* MapkitTestApp.swift in Sources */,
 			);
@@ -261,6 +343,7 @@
 		};
 		751ACFF027FDCE820015647E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BDA14075075ED03CE9AE409 /* Pods-MapkitTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -270,6 +353,8 @@
 				DEVELOPMENT_TEAM = 7N2TRX73U6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MapkitTest/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "네이버가 접근하도록 허용하겠습니까?";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -290,6 +375,7 @@
 		};
 		751ACFF127FDCE820015647E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AEB9BC100D4BAF3F8AB1FEF /* Pods-MapkitTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -299,6 +385,8 @@
 				DEVELOPMENT_TEAM = 7N2TRX73U6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MapkitTest/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "네이버가 접근하도록 허용하겠습니까?";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
