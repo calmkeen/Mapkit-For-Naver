@@ -42,3 +42,6 @@ func mapView(_ mapView: NMFMapView, didTapMap latlng: NMGLatLng, point: CGPoint)
 <img width="367" alt="image" src="https://user-images.githubusercontent.com/78361650/162164323-f8cbdbd3-888e-44eb-a85d-5aaf67c35e67.png">
 
 -진동파트는 코드상에 주석처리
+
+![image](https://user-images.githubusercontent.com/78361650/162882501-ae45b237-4745-453d-9c1a-69be43a27d63.png)
+
